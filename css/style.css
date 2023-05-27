@@ -1,0 +1,85 @@
+:root{
+    --green:#009f7f88;
+    --orange:#fe613888;
+}
+header{
+    min-height: 90vh;
+    background: url(../images/bg.jpg) no-repeat top center/cover;
+}
+.block{
+    min-height: 150px;
+    background:var(--green)
+}
+.block.active{
+    background: var(--orange);
+}
+section:first-of-type{
+    min-height: 450px;
+    overflow: hidden;
+
+}
+.icon{
+    min-height: 300px;
+
+}
+section:nth-of-type(2){
+    min-height: 500px;
+    overflow: hidden;
+
+}
+sectoin:nth-of-type(2) div{
+    min-height: 250px;
+}
+section:nth-of-type(3){
+    min-height: 600px;
+    background: url(../images/process-bg.jpg) no-repeat center/cover;
+    overflow: hidden;
+
+}
+section:nth-of-type(3) div{
+    min-height:300px
+}
+section:nth-of-type(3) div:first-of-type{
+    background:url(../images/p-bg1.jpg) no-repeat center/cover;
+    overflow: hidden;
+
+}
+section:nth-of-type(3) div:nth-of-type(2){
+    background:url(../images/p-bg2.jpg) no-repeat center/cover;
+}
+section:nth-of-type(3) div:nth-of-type(3){
+    background:url(../images/p-bg3.jpg) no-repeat center/cover;
+}
+section:nth-of-type(3) div:nth-of-type(4){
+    background:url(../images/p-bg4.jpg) no-repeat center/cover;
+}
+
+
+section:nth-of-type(4){
+    min-height: 700px;
+}
+section:nth-of-type(5){
+    min-height: 750px;
+    overflow: hidden;
+}
+section:nth-of-type(6){
+    min-height: 400px;
+    background: orangered;
+   
+}
+ 
+section:nth-of-type(7){
+min-height:400px;
+}
+.ifram{
+  min-height: 400px;
+}
+.box{
+    background:#fe6138;
+   height: 400px;
+}
+
+section:nth-of-type(9){
+min-height:300px;
+
+}
